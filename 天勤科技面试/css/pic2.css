@@ -1,0 +1,335 @@
+/*CSS初始化*/
+
+@font-face {
+	font-family: "icomoon";
+	src: url('../fonts/icomoon.eot?7kkyc2');
+	src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f5f5f5;
+}
+
+.banxin {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+img {
+	vertical-align: top;
+}
+
+ul {
+	list-style: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.header {
+	background-color: #2e3a4b;
+	height: 35px;
+	line-height: 35px;
+	color: #a2a3a5;
+	font-size: 14px;
+}
+
+.h-l {
+	margin-left: 20px;
+}
+
+.h-l span {
+	margin-right: 15px;
+}
+
+.h-l .ico {
+	font-family: "icomoon";
+	font-size: 12px;
+}
+
+.h-r li {
+	float: left;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.h-r li a {
+	color: #a2a3a5;
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+.h-r li .shu {
+	font-size: 14px;
+}
+
+.h-r span.ico {
+	font-size: 12px;
+	margin: 0 10px;
+	margin-top: 4px;
+	font-family: "icomoon";
+}
+
+
+/*导航栏部分*/
+
+.nav {
+	background-color: #fff;
+}
+
+.nav-t {
+	height: 80px;
+	line-height: 80px;
+}
+
+.nav-t h1 {
+	height: 80px;
+	margin-top: -5px;
+}
+
+.nav-t h1 a {
+	font-weight: 700;
+	color: #1E1E1E;
+	font-size: 22px;
+	display: inline-block;
+}
+
+.nav-t-l {
+	height: 80px;
+}
+
+.nav-t-r {
+	color: #b0b0b0;
+}
+
+.nav-t-r li {
+	float: left;
+	margin-right: 25px;
+}
+
+.nav-t-r li span {
+	margin-right: 6px;
+	font-family: 'icomoon'
+}
+
+.nav-b {
+	height: 40px;
+	line-height: 40px;
+}
+
+.nav-b li {
+	float: left;
+	margin-right: 46px;
+}
+
+.nav-b li a {
+	display: block;
+	color: #575757;
+}
+
+.nav-b li a.first {
+	width: 260px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #34b3e0;
+}
+
+
+/*导航栏部分*/
+
+.banner {
+	height: 440px;
+	background: url(../img/pic2_32.png) 0 0 no-repeat;
+	background-position: center center;
+}
+
+.banner ul {
+	width: 260px;
+	background-color: rgba(0, 0, 0, .3);
+	height: 440px;
+	overflow: hidden;
+}
+
+.banner ul li {
+	height: 88px;
+	line-height: 88px;
+	padding: 0 20px;
+	border-bottom: 1px solid #CCC;
+}
+
+.banner li a {
+	color: #F8F8F8;
+	font-size: 14px;
+}
+
+
+/*服务模块*/
+
+.fuwu {
+	margin-bottom: 50px;
+}
+
+.fuwu h3 {
+	height: 110px;
+	line-height: 110px;
+	color: #292929;
+	font-family: "微软雅黑";
+	text-align: center;
+	font-size: 23px;
+}
+
+.fuwu li {
+	cursor: pointer;
+	float: left;
+	padding: 35px 0;
+	width: 220px;
+	background-color: #fff;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.fuwu li.ssssss {
+	padding: 0;
+	width: 277px;
+}
+
+.fuwu li.ssssss .time span {
+	font-family: 'icomoon';
+	margin-right: 8px;
+}
+
+.fuwu li.ssssss .title {
+	margin-bottom: 28px;
+}
+
+.fuwu li.ssssss .title2 {
+	padding: 0 25px;
+}
+
+.fuwu li .title {
+	margin: 15px 0;
+}
+
+.fuwu li .title2 {
+	color: #676A6C;
+	font-size: 13px;
+	margin-bottom: 34px;
+}
+
+.fuwu li .title3 {
+	color: #676A6C;
+}
+
+.fuwu li .title3 span {
+	color: #FD5A66;
+}
+
+.fuwu li a {
+	display: inline-block;
+	padding: 7px 22px;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 18px;
+	background-color: #fd5a66;
+}
+
+.ppp {
+	display: inline-block;
+	padding: 0px 10px;
+	cursor: pointer;
+	font-size: 12px;
+	border: 1px solid #676A6C;
+}
+
+.pppppp {
+	background-color: #fff!important;
+}
+
+
+/*服务模块*/
+
+
+/*尾部部分*/
+
+.footer {
+	padding: 80px 0;
+	text-align: center;
+	background-color: #f8f8f8;
+}
+
+.footer .footer-1 {
+	margin-bottom: 40px;
+	font-family: "微软雅黑";
+	font-size: 30px;
+}
+
+.footer p {
+	color: #a6a6a6;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.footer p span {
+	font-weight: 700;
+}
+
+.footer .footer-2 {
+	width: 229px;
+	margin: 0 auto 40px;
+	height: 42px;
+}
+
+.footer .footer-2 span {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../img/pic1_11.png) 0 0 no-repeat;
+	margin-right: 15px;
+}
+
+.footer .footer-2 span:hover {
+	background: url(../img/pic1_12.png) 0 0 no-repeat;
+}
+
+.footer .footer-2 span:first-child {
+	background: url(../img/pic1_12.png) 0 0 no-repeat;
+}
+
+.footer .footer-2 span:last-child {
+	margin-right: 0;
+}
+
+
+/*尾部部分*/

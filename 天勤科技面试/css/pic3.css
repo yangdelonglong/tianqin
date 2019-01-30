@@ -1,0 +1,244 @@
+						/*CSS初始化*/
+						
+						@font-face {
+							font-family: "icomoon";
+							src: url('../fonts/icomoon.eot?7kkyc2');
+							src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+						}
+						
+						* {
+							margin: 0;
+							padding: 0;
+						}
+						
+						body {
+							background-color: #f5f8f9;
+						}
+						
+						.banxin {
+							width: 1140px;
+							margin: 0 auto;
+						}
+						
+						img {
+							vertical-align: top;
+						}
+						
+						ul {
+							list-style: none;
+						}
+						
+						.clearfix:before,
+						.clearfix:after {
+							content: "";
+							display: table;
+						}
+						
+						.clearfix:after {
+							content: "";
+							clear: both;
+						}
+						
+						.clearfix {
+							*zoom: 1;
+						}
+						
+						.fl {
+							float: left;
+						}
+						
+						.fr {
+							float: right;
+						}
+						
+						a {
+							color: #fff;
+							text-decoration: none;
+						}
+						/*头部部分*/
+						
+						.header {
+							height: 100px;
+							background-color: #fff;
+							line-height: 100px;
+						}
+						
+						.header-l img {
+							padding-top: 30px;
+						}
+						
+						.header-r span {
+							font-family: "icomoon";
+							margin-right: 30px;
+							color: #676a6c;
+							cursor: pointer;
+						}
+						
+						.header-r a {
+							display: inline-block;
+							width: 112px;
+							height: 40px;
+							text-align: center;
+							line-height: 40px;
+							color: #fff;
+							background-color: red;
+						}
+						/*头部部分*/
+						/*主体部分*/
+						
+						.main {
+							padding-top: 71px;
+						}
+						
+						.main .main-1 {
+							margin-bottom: 32px;
+						}
+						
+						.main .main-2 {
+							padding: 50px;
+							background-color: #fff;
+						}
+						
+						.main .main-1-l h5 {
+							font-size: 28px;
+							font-weight: normal;
+						}
+						
+						.main-1-l p {
+							font-size: 16px;
+							color: #b2b5b6;
+						}
+						
+						.main-1-r {
+							margin-top: 30px;
+						}
+						
+						.main-1-r li {
+							float: left;
+							margin-left: 25px;
+						}
+						
+						.main-1-r li a {
+							font-family: "微软雅黑";
+							font-weight: 700;
+							color: #000000;
+							display: block;
+							padding-bottom: 7px;
+						}
+						
+						.main-1-r li a.sel {
+							border-bottom: 1px solid #cccfd0;
+						}
+						
+						.main-2 {
+							padding: 50px;
+							background-color: #fff;
+						}
+						
+						.main-2-l p {
+							color: #000;
+						}
+						
+						.main-2-l p:first-child {
+							margin-bottom: 20px;
+						}
+						
+						.aaaa {
+							position: relative;
+						}
+						
+						.bbb {
+							position: absolute;
+							top: 50%;
+							transform: translateY(-50%);
+						}
+						
+						.bbb1 {
+							left: 62px;
+						}
+						
+						.bbb2 {
+							left: 262px;
+						}
+						
+						.bbb3 {
+							left: 462px;
+						}
+						
+						.bbb h4 {
+							font-weight: 700;
+							font-size: 30px;
+						}
+						
+						.bbb3 h4 {
+							padding-left: 12px;
+						}
+						
+						.bbb p {
+							font-size: 14px;
+						}
+						
+						.main-3-l {
+							padding: 50px;
+							margin-top: 20px;
+							background-color: #FFF;
+						}
+						
+						.sss {
+							padding-top: 30px;
+						}
+						
+						.main-3-l-l {
+							margin-right: 60px;
+						}
+						
+						.main-3-l-l h3 {
+							font-size: 28px;
+						}
+						
+						.main-3-l-l p {
+							color: #c2c3c3;
+							margin-bottom: 48px;
+						}
+						
+						.main-3-r {
+							padding: 50px;
+							background-color: #fff;
+						}
+						
+						.main-3-r p span {
+							font-family: 'icomoon';
+							color: #606060;
+							font-size: 14px
+						}
+						/*主体部分*/
+						/*尾部部分*/
+						
+						.footer {
+							margin-top: 50px;
+							background-color: #202124;
+							padding: 80px 0;
+						}
+						
+						.footer dl {
+							float: left;
+							width: 180px;
+							color: #fff;
+							font-size: 14px;
+							font-weight: 700;
+						}
+						
+						.footer dl:last-child {
+							float: left;
+						}
+						
+						.footer img {
+							float: left;
+							margin-right: 100px;
+						}
+						
+						.footer dl dt,
+						.footer dl dd {
+							height: 30px;
+						}
+						/*尾部部分*/
