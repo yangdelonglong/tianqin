@@ -136,6 +136,50 @@
 							margin-right: 20px;
 							padding: 10px;
 						}
+						.main-2-l .lunbo {
+							height: 100%;
+							position: relative;
+						}
+						.lunbo .previous,
+						.lunbo .next {
+							position: absolute;
+							top: 50%;
+							transform: translateY(-50%);
+							font-family: arial;
+							font-size: 20px;
+							width: 26px;
+							height: 36px;
+							text-align: center;
+							line-height: 36px;
+							background: #000;
+							color: #fff;
+						}
+						.lunbo .previous {
+							left: 10px;
+						}
+						.lunbo .next {
+							right: 10px;
+						}
+						.lunbo .lunbo-list {
+							position: absolute;
+							left: 50%;
+							transform: translateX(-50%);
+							bottom: 12px;
+							font-size: 0;
+						}
+						.lunbo .lunbo-list .lunbo-item {
+							display: inline-block;
+							width: 8px;
+							height: 10px;
+							background: #c1c3c5;
+						}
+						.lunbo .lunbo-list .lunbo-item.sel {
+							height: 14px;
+							background: #fff;
+						}
+						.lunbo .lunbo-list .lunbo-item:not(:last-child) {
+							margin-right: 8px;
+						}
 						.main-2-l img {
 							display: block;
 							width: 100%;

@@ -5,7 +5,9 @@
 		<meta charset="UTF-8">
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="css/pic3.css" />
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.2.1/echarts-en.common.min.js" type="text/javascript" charset="utf-8"></script>
+
 	</head>
 
 	<body>
@@ -52,8 +54,17 @@
 			</div>
 			<div class="main-2">
 				<div class="main-2-l">
-					<div class="lunbo">
-						<img src="img/lunbo1_03.png"/>	
+					<div class="lunbo" id="lunbo">
+						<img src="img/lunbo1.jpg"/>	
+						<a href="javascript:;" class="next">></a>
+						<a href="javascript:;" class="previous"><</a>
+						<div class="lunbo-list">
+							<a href="javascript:;" class="lunbo-item"></a>
+							<a href="javascript:;" class="lunbo-item"></a>
+							<a href="javascript:;" class="lunbo-item sel"></a>
+							<a href="javascript:;" class="lunbo-item"></a>
+							<a href="javascript:;" class="lunbo-item"></a>
+						</div>
 					</div>
 				</div>
 				<div class="main-2-r">
@@ -184,7 +195,5 @@
 		</div>
 
 	</body>
-
-	<script src="js/pic3.js" type="text/javascript" charset="utf-8"></script>
-
+		<script src="js/pic3.js" type="text/javascript" charset="utf-8"></script>
 </html>
